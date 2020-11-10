@@ -13,7 +13,7 @@
             <label for="inputUsuario" class="sr-only">Usuário</label>
             <input type="usuario" id="inputUsuario" class="form-control" placeholder="Usuário" required="" autofocus="">
             <label for="inputSenha" class="sr-only">Senha</label>
-            <input type="senha" id="inputSenha" class="form-control" placeholder="Senha" required="">
+            <input type="password" id="inputSenha" class="form-control" placeholder="Senha" required="">
             <button class="btn btn-lg btn-primary btn-block" type="submit">Entrar</button>
         </form>
 

@@ -21,3 +21,19 @@ Route::get('/', function () {
 Route::post('user',[Autenticacao::class,'userLogin']);
 
 Route::view('login', 'layouts/login');
+
+Route::view('home', 'pages/home');
+
+Route::view('registraratendimentos', 'pages/registerservice');
+
+Route::view('registrartipos', 'pages/registerservicestypes');
+
+Route::view('registrartecnico', 'pages/registertechnician');
+
+Route::view('atendimento', 'pages/myservices');
+
+Route::view('relatorios', 'pages/report');
+
+Route::view('tiposdeatendimento', 'pages/services');
+
+Route::view('tecnicos', 'pages/technicians');

@@ -2,11 +2,11 @@
 @section('content')
 <div class="container">
     <div class="container">
-        <h1>Técnicos</h1>
+        <h1>Atendimentos</h1>
     </div>
     <br>
     <div class="container">
-        <a href="/registrartecnico" class="btn btn-dark">Criar Técnico</a>
+        <a href="/registraratendimentos" class="btn btn-dark">Registrar atendimento</a>
     </div>
 </div>
 @stop
