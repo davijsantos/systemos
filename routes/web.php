@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\Autenticacao;
 
 /*
 |--------------------------------------------------------------------------
@@ -17,6 +18,6 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('', function(){
-    return view('x');
-});
+Route::post('user',[Autenticacao::class,'userLogin']);
+
+Route::view('login', 'layouts/login');
